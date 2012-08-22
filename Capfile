@@ -40,8 +40,8 @@ namespace :deploy do
 
 desc "upload .htaccess to remote"
 	task :upload_htaccess do
-		puts ("scp .htaccess  #{user}@#{domain}:#{current_path}/.htaccess")
-		system ("scp .htaccess  #{user}@#{domain}:#{current_path}/.htaccess")
+		puts ("scp .htaccess_production  #{user}@#{domain}:#{current_path}/.htaccess")
+		system ("scp .htaccess_production  #{user}@#{domain}:#{current_path}/.htaccess")
 		#sudo chown -v :www-data "/enterYourFilePathHere/.htaccess"
 		#sudo chmod -v 664 "/enterYourFilePathHere/.htaccess"
 
