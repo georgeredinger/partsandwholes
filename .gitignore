@@ -3,5 +3,7 @@ p*.log
 wp-content/uploads/
 .htaccess*
 *.swp
+partsandwholes
+
 
 
