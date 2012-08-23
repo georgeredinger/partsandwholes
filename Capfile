@@ -1,6 +1,6 @@
 require 'capistrano/version'
 load 'deploy'
-set :domain,  "gr.redinger.me"
+set :domain,  "georgeredinger.com"
 set :user,    "george"
 set :application, "georgeredinger.com"
 set :repository, "git@github.com:georgeredinger/partsandwholes.git"
